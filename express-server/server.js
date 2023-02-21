@@ -3,7 +3,6 @@ const app = express();
 
 const path = require('path');
 const fs = require('fs');
-const { json } = require('body-parser');
 
 function readJsonFile(filePath) {
     try {
